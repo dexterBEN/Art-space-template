@@ -1,0 +1,84 @@
+/**Élément du bloc 3:(A revoir parce que slider)**/
+
+
+.designs{
+	/*display: flex;*/
+	text-align: center
+}
+
+
+.designs__title{
+	position:relative;
+	text-transform: uppercase;
+}
+
+.designs__title::after{
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:-10px;
+	right:0;
+	left:0;
+	margin:auto;
+}
+/*Class associé au slider*/
+.container__slider{
+	/*
+    margin-left: 480px;
+	background-image: url(images_css/large-cinema-display.png);
+	background-repeat: no-repeat;
+	height:615px;
+	overflow: hidden;	
+	*/
+
+	max-width: 800px;
+  background-color: #333;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container__slide{
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  box-sizing: content-box;
+}
+
+.arrow{
+	width: 50px;
+  padding: .5em 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
+
+.leftArrow{
+	position: absolute;
+  top: 45%;
+  left: 0;
+}
+
+.rightArrow{
+	position: absolute;
+  top: 45%;
+  right: 0;
+}
+
+/*
+.designs__screen--sizeSlide{
+
+	width: 784px;
+	height: 397px;
+
+}
+
+.Container_slide{
+
+	height:550px;
+}
+
+*/

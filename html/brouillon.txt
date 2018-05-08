@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+	
+	<head>
+
+		<meta charset="utf-8">
+		<link href="../css/Styles.css" type="text/css" rel="stylesheet" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserra" rel="stylesheet"/>
+		<link href="../slick/slick.css" rel="stylesheet"/>
+		<link href="../slick/slick-theme.css" rel="stylesheet" type="text/css"/>
+		<title>Art-space</title>
+
+	</head>
+
+	<body>
+
+		<!--Menue de navigation-->
+		<header>
+
+			<nav class="nav-main">
+
+				<img src="images_fond/logo.png" class="nav-main__logo-left"/>
+				<ul>
+					<li><a href="" class="nav-main__link">Tour</a></li>
+					<li><a href="" class="nav-main__link">Templates</a></li>
+					<li><a href="" class="nav-main__link">developers</a></li>
+					<li><a href="" class="nav-main__link">Pricing</a></li>
+					<li><a href="" class="nav-main__link">Login</a></li>
+				</ul>	
+			</nav>
+
+			<section>
+				<!--<div class="Backtop_header"></div>-->
+
+				<div class="Backtop_header">
+
+						<hr class="Hrheader">
+						<h1>everything you need to create an exceptional website</h1>
+						<p style="color:white; font-size:40px">free 14 day trial with 24/7 support</p>
+						<div class="Link_sample">
+							<a href="" class="Decorate">get started</a>
+							<a href="" class="Link_of_header">watch demo</a>
+						</div>
+			    </div>
+				
+			</section>
+		</header>
+
+		<!--Bloc2: Sponsore-->
+		<div class="Backtop_grey">
+
+			<p>as featured in</p>
+			<img src="images_fond/press-logo-betabeat.png" alt=""/>
+			<img src="images_fond/press-logo-fastco.png" alt=""/>
+			<img src="images_fond/press-logo-forbes.png" alt=""/>
+			<img src="images_fond/press-logo-pandodaily.png" alt=""/>
+			<img src="images_fond/press-logo-techcrunch.png" alt=""/>
+			<img src="images_fond/press-logo-time.png" alt=""/>
+
+		</div>
+
+		<!--Bloc3: slider-->
+
+		<section class="Backtop_white">
+			
+			<h2 class="Title_part-3-4">Stunning designs from the start.</h2>
+			<hr class="hr_block3-4"/><!--tracé de ligne horizontal-->
+
+			<p class="Text_part_three_four">Art.space starts you with  beautiful templates right out of the box-each handcrafted by our award-winning design team to make your content stand out </p>
+
+			<!--Élément relatif au slider(pensez à rajouter les flêches directionnel picto)-->
+			<div class="Screen">
+				<!--<div class="Container_slide">-->
+					<div><img src="images_fond/slides1/img1.png" alt="" class="SizeSlide"/></div>
+					<div><img src="images_fond/slides1/img2.png" alt="" class="SizeSlide"/></div>
+				<!--</div>-->
+			</div>
+
+		</section>
+
+		<!--Blocs 4:-->
+		<section class="Backtop_grey">
+
+			<h2 class="Title_part-3-4"> pages, galleries, and blog.<br> all in one plateform</h2>
+
+			<hr class="hr_block3-4"/>
+
+			<p class="Text_part_three_four">whether you need simple pages, sophisticated gallerie, or professional blog-or any combination of each of those- it all comes standard with your website.</p>
+
+			<img src="images_fond/tour-all-in-one.png" alt="sample of template" class="Backtop_bloc4"/>
+			
+		</section>
+
+		<!--Blocs 5:-->
+		<section class="Backtop_white">
+
+			<h2 class="Title_left">introducing layoutengine.<br> A new page builder for art space.</h2>
+
+			<hr class="hr_block5-6-7-8"/>
+
+			<p class="Text_part-5-6-7-8">Our revolutionary layoutengine technology give you the freedom to create visually rich pages with any configuration of text, images or blocks by draggings items exactly where you want them. we lay thing out in a perfect grid, so everything is always aligned </p>
+
+			<img src="images_fond/tour-layoutengine-video-poster.jpg" class="Backtop_bloc5"/>
+
+		</section>
+
+		<!--Blocs 6:-->
+		<section class="Backtop_grey">
+
+			<h2 class="Title_left"> gallery with cutting-edge creative tools.</h2>
+			<hr class="hr_block5-6-7-8"/>
+
+			<p class="Text_part-5-6-7-8">Our photo galleries come with next-generations features you'll love. enjoy easy uploading by dragging files from your desktop into the browser.edit images any time you want with Aviary. select the focal point of each image, ensuring the best crop possible.</p>
+
+			<img src="images_fond/tour-gallery.jpg" class="Backtop_bloc6"/>
+		</section>
+
+		<!--Blocs 7: slider-->
+		<section  class="Backtop_white">
+			<h2 class="Title_left">state-of-the-art blogging.</h2>
+
+			<hr class="hr_block5-6-7-8"/>
+
+			<p class="Text_part-5-6-7-8">Effortlessly create content with our page builder and gallery system.share easily, map post with native geolocation, and use our bookmarklet to reblog content from the web.</p>
+
+			<!--Element slider(ne pas oublier les icones), appliqué le plugin sur la div-->
+			<div>
+				<img src="" alt=""/>
+				<img src="" alt=""/>
+			</div>
+			<div>
+				
+			</div>
+			
+			<aside class="Art_bloc7">
+				<article class="">
+					<h3>import seamlessly</h3>
+					<p>Start where you left off by importing all of your content from WordPress, Tumblr Posterous, Blogger,and Squarespace 5.</p>
+					<img src="" alt=""/>
+				</article>
+
+				<article>
+					<h3>push content out</h3>
+					<p>Publisize your freshest content by setting your blog to auto-publish to all of your favourite social networks</p>
+					<img src="" alt=""/>
+				</article>
+
+				<article>
+					<h3>share buttons</h3>
+					<p>Make it easy to share your content across the web by adding the social buttons you know your visitors use.</p>
+					<img src="" alt=""/>
+				</article>
+
+			</aside>
+		</section>
+
+		<!--Blocs 8:-->
+		<section class="Backtop_grey">
+
+			<h2 class="Title_left">the custom look you want</h2>
+
+			<hr class="hr_block5-6-7-8"/>
+			
+			<p class="Text_part-5-6-7-8">make any template your own with a few clicks in the style editor. Choose a preset color palette or select your own fronts, colors, and layouts to create the custom look you want</p>
+
+			<img src="images_fond/tour-style-editor.jpg" alt="" class="Backtop_bloc8">
+		</section>
+		
+
+		<!--Blocs 9:-->
+		<section class="Backtop_white Position_bloc9">
+
+			<div class="Place_bloc9">
+				<h2>mobile site built right in</h2>
+			    <hr>
+			    <p>Each template includes a unique mobile design, so anyone can see the beauty of your work anytime, anyplace, on any device</p>
+			</div>
+
+			<div class="Place_bloc9">
+				<img src="images_fond/tour-mobile.png" class="Backtop_bloc9"/>
+		    </div>
+		</section>
+		
+
+		<!--Blocs 10:-->
+		<section class="Backtop_grey"> <!--ajouter une class-->
+			<div>
+				<!--Réduire la taille nom des class-->
+				<h2 class="Title_left">connect with the service you love</h2>
+				<hr>
+				<p class="Text_part-5-6-7-8-10-12">Make your website the center of your line identity and social life on the web with an array of powerful tools</p>
+		    </div>
+
+		    <div class="Div_bloc10">
+		    	<div>
+		    		<img src="images_fond/tour-social-blob.png" alt="" class="Backtop_bloc10"/>
+		    	</div>
+
+		    	<div class="Arti_bloc10">
+			    	<article>
+						<h3>Import</h3>
+						<p>txt txt txt</p>
+				    </article>
+
+					<article>
+						<h3>sync</h3>
+						<p>txt txt txt</p>
+					</article>
+
+					<article>
+						<h3>publish</h3>
+						<p>txt txt txt</p>
+					</article>
+			    </div>
+		    	
+		    </div>
+
+		</section>
+
+		<!--Blocs 11:-->
+		<section class="Backtop_white Position_bloc11">
+			
+			<div class="Column_bloc11">	
+				<img src="images_fond/tour-comments.png" alt="" class="Backtop_bloc11">
+		    </div>
+			<div class="Dividing"></div>
+		    <div>
+				<h2>powerful commenting</h2>
+				<hr>
+				<p>Real-time posting and threading makes comment activity<br/>easy to engage with.Our comment moderating and spam<br/>filtering tools have never been more powerful.Your readers can login using Twitter and Facebook, and you<br/>can Integrate Diques.</p>
+			</div>
+		</section>
+
+		<!--Blocs 12:-->
+		<section class="Backtop_grey">
+
+			<h2 class="Title_left">real-time statiscs for audience insight.</h2>
+			<hr>
+			<p class="Text_part-5-6-7-8-10-12">Acess your built-in analytics to view the traffic and behavior of visitors in real-time.<br/>Learn where they're coming from, and what keywords they're using to find you.</p>
+			<img src="images_fond/tour-stats.jpg" alt="" class="Backtop_bloc12">
+
+		</section>
+
+		<!--Blocs 13:-->
+		<div class="Backtop_white Artbloc13">
+
+			<div class="Cl11">
+				<article>
+					<h2>search engine optimized</h2>
+					<hr>
+					<p>Art.space websites include clean article links, proper tagging,<br/> XML sitemaps, and valid XHTML code.All of which make your<br/> website loved by search engines.</p>
+					
+					<!--Bloc pour la citation du CEO-->
+					<blockquote>
+						<figure>
+							<!--photo CEO-->
+							
+							<!--Banderole verte-->
+							<figcaption>
+								<img src="images_fond/tour-rob-space.jpg" class="Picture">
+								<img src=""><!--mini logo seomoz-->
+							</figcaption>
+						</figure>
+							<q>The team has put together a remarkable platform.<br/>Every aspect of the product-user experience,featurest,<br/>SEO friendliness, design and more-all work together to create one of the few content management systems I'm proud to recommend.
+							</q>
+					</blockquote>
+				</article>
+		    </div>
+			
+			<div class="Cl12">
+				<article>
+					<h2>choose your contributor</h2>
+					<hr>
+					<p>Invite contributors to help you manage your website.Set individual permission, from full admin to a trusted commenter, so you are always in control.</p>
+					<img src="images_fond/tour-contributors.png">
+				</article>
+			</div>
+		</div>
+
+		<hr>
+
+		<!--Blocs 14:-->
+		<div class="Backtop_white Artbloc14">
+			
+			<div class="Cl21">
+				<article>
+					<h2>cloud hosting from the best</h2>
+					<hr>
+					<p>With our reliable and scalable cloud infrastructure, there's no<br/>downtime, and nothing to install, patch, or upgrade.</p>
+					<img src="images_fond/tour-clouds.png"/>
+				</article>
+			</div>
+
+			<div class="Cl22">
+				<article>
+					<h2>custom domain names</h2>
+					<span class="Spanelement">free</span><!--petit bulle free-->
+					<hr>
+					<p>Art.space makes adding your custom domain simple, and<br/>every annual account receives a free custom domain.</p>
+					<img src="images_fond/tour-domain.png"/> 
+				</article>
+			</div>
+		</div>
+		
+		<!-- blocs 15: footer ou pied de page-->
+		<footer>
+
+			<nav class="Nav_footer">
+				<div>
+					<h4>product</h4>
+					<ul class="Sous_bloc">
+						<li><a href="" class="Subclass">Tour</a></li>
+						<li><a href="" class="Subclass">Templates</a></li>
+						<li><a href="" class="Subclass">Mobile Apps</a></li>
+						<li><a href="" class="Subclass">Developers</a></li>
+						<li><a href="" class="Subclass">Pricing</a></li>
+						<li><a href="" class="Subclass">Sign Up</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h4>company</h4>
+					<ul class="Sous_bloc">
+						<li><a href="" class="Subclass">gugu</a></li>
+						<li><a href="" class="Subclass">gugu</a></li>
+						<li><a href="" class="Subclass">gugu</a></li>
+						<li><a href="" class="Subclass">gugu</a></li>
+						<li><a href="" class="Subclass">gugu</a></li>
+						<li><a href="" class="Subclass">gugu</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h4>community</h4>
+					<ul class="Sous_bloc">
+						<li><a href="" class="Subclass">gogo</a></li>
+						<li><a href="" class="Subclass">gogo</a></li>
+						<li><a href="" class="Subclass">gogo</a></li>
+						<li><a href="" class="Subclass">gogo</a></li>
+						<li><a href="" class="Subclass">gogo</a></li>
+						<li><a href="" class="Subclass">gogo</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<a href="" class="Link_footer">try it free</a>
+					<p>free 14-day</p>
+					<p>No credit card required</p>
+					<p>24/7 support</p>
+					<img src="images_fond/footer-truste.png"/>
+				</div>
+
+			</nav>
+
+		</footer>
+
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="../slick/slick.min.js"></script>
+
+		<script type="text/javascript">
+		 $(document).ready(function(){ 
+		      $('.Screen').slick({  
+		        setting-name: setting-value 
+		      }); 
+		     });
+        </script>
+	</body>
+
+</html>

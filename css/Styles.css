@@ -1,0 +1,689 @@
+/*
+  
+  NDT:utilisation de la technique du BEM pour nomée les class et pseudo élément(parent__enfant--modifieur)
+  NDT:Pour une meilleur sémantique dans le code pas de <hr> (à la place des pseudo élément)
+  NDT:Éviter d'utiliser la même class sur plusieurs élément
+
+*/
+
+body{
+    margin:0;
+    padding:0;
+	font-family: 'Monserrat', sans-serif;
+}
+
+/****************************************************************************
+Element du header et nav principale:( petit problème avec le 'reset css')
+
+*****************************************************************************/
+
+
+
+.backtop_header{
+	background-image: url(images_css/hero-tour.jpg);/*images décoratives donc en css*/
+	background-size: 100%;
+	display:flex;
+	flex-direction:column;
+	font-size: 2.5rem;
+	color:#fff;
+	text-align:center;
+	width: 100%;
+	height:100vh;
+
+	/*
+	width:100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-size:40px;
+    */
+}
+
+.backtop_header__text{
+	font-style: italic;
+	color: #ffffff;
+}
+
+.nav-main{
+        
+        margin:auto;
+        background-repeat: no-repeat;
+        display:flex;
+        justify-content:space-between;
+        flex-direction:row;
+        
+}
+
+@media(min-width: 800px){/**Permet d'éviter des comportements indésirables de la nav en cas de redimensionnement**/
+
+	.nav-main{
+		max-width: 600px;
+	}
+}
+
+@media(min-width: 1200px){
+
+	.nav-main{
+		max-width: 1000px;
+	}
+}
+
+
+.nav-main__menu{
+	list-style: none;
+}
+
+.nav-main__logo-left{
+	
+	/*margin-right: 1200px;*/
+	padding:15px;
+	max-height: 50px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-main__link{
+	color:#000000;/*Couleur des lien de nav*/
+}
+
+/****Élément du header (ou bloc 1)****/
+
+h1{
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1::before{
+	content:'';
+	background-color:#ffffff;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:850px;
+	right:0;
+	left:0;
+	margin:auto;
+}
+
+.link_sample{
+	display:inline-block;
+}
+
+.backtop-header__link{
+	
+
+	background:#000000;
+	padding: 15px;
+	border-radius: 100px;
+	color:#fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size:1.5rem;	
+}
+
+.backtop-header__link--primary{
+
+	background-color:#fff186;
+	color: #000;
+}
+
+/**Élément du bloc 2:sponsor(A revoir parce que les images apportent de l'info ou de la déco ? )**/
+
+.section2{
+	display:flex;
+	justify-content:space-around;
+	background-color: #f5f5f5;
+}
+
+
+/**Élément du bloc 3:**/
+
+
+.designs{
+	text-align: center
+}
+
+/**CSS préfix aide à ne pas déformer la taille des sliders en cas de redimensionnement**/
+.designs .wrapper {
+    width: 70%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+/*******************************
+
+Class associé au slider
+
+*******************************/
+.designs .slide-container {
+/* déborde si width non spécifiée */
+    width: 100%;
+    position: relative;
+}
+.designs .slider div img {width: 100%;}/*Cible les images en slides*/
+/**
+	Flêches directionnel:
+**/
+.designs .slick-next {right: -10vw;}
+.designs .slick-prev {left: -10vw;}
+.designs section.blogging .a-right.slick-next {right: -7vw;}
+.designs section.blogging .a-left.slick-prev {left: -7vw;}
+
+.designs .a-right.slick-next, .a-left.slick-prev {
+    width: 30px;
+    height: auto;
+    opacity: .5;
+}
+
+.designs .container-tour {
+    padding: 3vw 2.8vw 6vw;
+}
+.designs .container-tour > img { /*Dernière couche*/
+	z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.designs__title{
+	position:relative;
+	text-transform: uppercase;
+}
+
+.designs__title::after{
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:-10px;
+	right:0;
+	left:0;
+	margin:auto;
+}
+
+.designs__slider {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/** Élément bloc 4(A revoir)**/
+
+.pages{
+	
+	/*
+	position:relative;
+	left:27.5%;
+	
+	background-color: #f5f5f5;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;	
+	*/
+
+	text-align: center;
+	background-color: #f5f5f5;
+}
+
+.pages__title{
+	position:relative;
+	text-transform: uppercase;
+}
+
+.pages__title::after{
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:-10px;
+	right:0;
+	left:0;
+	margin:auto;
+}
+
+/**Élément bloc 5:**/
+
+.layout{
+	/*
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	*/
+	text-align: left;
+	
+}
+
+.layout__title{
+	position:relative;
+	text-transform: uppercase;
+}
+
+.layout__title::after{
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:-10px;
+	right:0;
+	left:-1355px;
+	margin:auto;
+}
+
+/**Élément bloc 6:**/
+
+.gallery{
+
+	text-align: left;
+	background-color: #f5f5f5;
+}
+
+.gallery__title{
+
+	position:relative;
+	text-transform: uppercase;
+}
+
+.gallery__title::after{
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:-10px;
+	right:0;
+	left:-1355px;
+	margin:auto;
+}
+/**Élément bloc 7: slider(A voir)**/
+
+.blog{
+	text-align: left;
+}
+
+.blog .wrapper{
+	width: 70%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+
+}
+
+.blog .slide-container {
+/* déborde si width non spécifiée */
+    width: 100%;
+    position: relative;
+}
+
+.blog .slider div img {width: 100%;}
+
+.blog__title{
+	position:relative;
+	text-transform: uppercase;
+}
+
+.blog__title::after{
+
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:-10px;
+	right:0;
+	left:-1355px;
+	margin:auto;
+}
+
+
+
+.blogging__article{
+	display:flex;
+	justify-content:space-between;
+
+}
+
+h3{
+	text-transform: uppercase;
+}
+
+/**************************
+  CLASS ASSOCIER AU SLIDER:
+****************************/
+
+
+
+/**Élément bloc 8:**/
+.custom{
+	/*
+	position:relative;
+	left:29.5%;
+	*/
+
+	background-color: #f5f5f5;
+	text-align: left;
+}
+
+.custom__title{
+	position:relative;
+	text-transform: uppercase;
+}
+
+.custom__title::after{
+
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:-10px;
+	right:0;
+	left:-1355px;
+	margin:auto;
+
+}
+
+/**Élément bloc 9: Revoir le placement de l'image**/
+.mobile{
+
+	/*border-right: 1px;
+	width: 300px;
+	height: 300px;*/
+	display:flex;
+}
+
+.mobile__column{
+	flex-direction:column;
+}
+
+.mobile__column--title{
+
+	position: relative;
+	text-transform: uppercase;
+}
+
+.mobile__column--title::after{
+	
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:-10px;
+	right:0;
+	left:-1355px;
+	margin:auto;
+
+}
+
+/**Élément bloc 10:**/
+
+.connect-service{
+	background-color: #f5f5f5;
+}
+
+.connect-service__title{
+	position:relative;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.connect-service__title::after{
+
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 25%;
+	height: 7.5px;
+	bottom:-10px;
+	right:0;
+	left:-1355px;
+	margin:auto;
+
+
+}
+
+.connect-service__column{
+
+	display:flex;
+}
+
+.connect-service__article{
+
+	flex-direction:row;
+}
+/*
+.Backtop_bloc10{
+
+	border-right: 1px;
+	width: 300px;
+	height: 300px;
+	justify-content:flex-start;
+}
+*/
+
+/**Élément bloc 11:**/
+
+.commenting{
+	
+	display:flex;
+}
+
+.commenting__title{
+	position: relative;
+	text-transform: uppercase;
+}
+
+.commenting__title::after{
+
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 45%;
+	height: 7.5px;
+	bottom:-10px;
+	right:550px;
+	left:0;
+	margin:auto;
+}
+
+.commenting__column{
+	flex-direction:row-reverse;
+}
+
+.commenting__separator{
+	width:5px;
+    border-left:1px solid gray;
+    height:500px;
+}
+
+/**Élément bloc 12:**/
+
+.statistics{
+	background-color: #f5f5f5;
+	text-align: left;
+}
+
+.statistics__title{
+	text-transform: uppercase;
+	position:relative;
+}
+
+.statistics__title::after{
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 45%;
+	height: 7.5px;
+	bottom:-10px;
+	right:550px;
+	left:0;
+	margin:auto;
+}
+/*
+.Backtop_bloc12{
+
+	position:relative;
+	left:27.5%;
+	width: 760px;
+	height: 370px;
+}
+*/
+
+/**Élement bloc 13 & 14:**/
+
+.articles{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.articles__column{
+	width: 50%;
+	padding: 25px;
+}
+
+.articles__title{
+	position:relative;
+	text-transform: uppercase;
+}
+
+.articles__title::after{
+	content:'';
+	background-color:#000000;
+	position: absolute;
+	width: 45%;
+	height: 7.5px;
+	bottom:-10px;
+	right:550px;
+	left:0;
+	margin:auto;
+
+}
+
+.picture{
+	border-radius: 60px;
+}
+
+
+figcaption{
+	background-color: #58cb8e;
+	border-radius: 70px;
+	width: 698px;
+	height: 98px;
+	display: flex;
+	flex-direction:row;
+}
+
+.seo{
+	position:relative;
+	height: 16px;
+	padding-top: 40px;
+	padding-left: 200px;
+}
+
+figcaption>p{
+	color:#ffffff;
+	position:relative;
+	padding-top: 20px;
+	padding-left: 100px;
+}
+
+.spanelement{
+	background-color: #58cb8e;
+	color:white;
+	text-transform: uppercase;
+	font-size: 120%;
+	border-radius:10px;
+}   
+/****Footer:*****/
+
+footer{
+	background-color: #000000;
+}
+
+
+h4{
+	color:white;
+	text-transform: uppercase;
+}
+
+.footer__nav{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.footer__subcategory{
+	display:flex;
+	flex-direction:column;
+}
+
+.footer__link{
+	border-radius: 100px;
+	background-color: #e5e5e5;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 180%;
+	color:#000101;
+
+}
+
+.footer__subcategory--color{
+	color:#414141;
+}
+
+footer>nav>div>p{
+	color:white;
+}
+/**eviter de mettre des majuscule aux class**/
+

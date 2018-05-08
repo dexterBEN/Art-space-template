@@ -1,0 +1,21 @@
+<!--Bloc3: slider-->
+
+		<section class="designs">
+			<h2 class="designs__title">Stunning designs from the start.</h2>
+			<!--<hr class="hr_block3-4"/>-->
+
+			<p>Art.space starts you with  beautiful templates right out of the box-each handcrafted by our award-winning design team to make your content stand out </p>
+
+			<!--Élément relatif au slider(pensez à rajouter les flêches directionnel picto)-->
+			<div class="container__slider">
+				<!--<div class="container_slide">-->
+					<!--<div><img src="images_fond/slides1/img1.png" alt="" class="designs__screen--sizeSlide"/></div>-->
+					<!--<div><img src="images_fond/slides1/img2.png" alt="" class="designs__screen--sizeSlide"/></div>-->
+				<!--</div>-->
+				<div class="arrow leftArrow" onclick="prev()"><img src="images_fond/templates-gallery-left-arrow.png"/></div><!--flèche directionnel-->
+				<div><img id="slider" src="images_fond/slides1/img1.png" alt="" width="784"/></div>
+
+				<div class="arrow rightArrow" onclick="next()"><img src="images_fond/templates-gallery-right-arrow.png"/></div><!--flèche directionnel-->
+
+			</div>
+		</section>

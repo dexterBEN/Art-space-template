@@ -1,0 +1,182 @@
+/**Corp de page **/
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Monserrat', sans-serif;
+}
+
+/**Élement de la nav**/
+
+.nav-main{
+
+        margin:auto;
+        background-repeat: no-repeat;
+        display:flex;
+        justify-content:space-between;
+        
+}
+
+@media(min-width: 800px){
+
+        .nav-main{
+                max-width: 600px;
+        }
+}
+
+@media(min-width: 1200px){
+
+        .nav-main{
+                max-width: 1000px;
+        }
+}
+
+.nav-main__menu{
+        list-style: none; 
+        display: flex;
+}
+
+.nav-main__link{
+        color:#000000;
+        padding: 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+
+.nav-main__logo-left{
+        
+        /*margin-right: 1200px;*/
+        padding:15px;
+        max-height: 50px;
+}
+
+
+
+/***Élément acceuil:**/
+.home{
+        background-image:url(images_css/hero-pricing.jpg);
+        background-size: 100%;
+        /*display:flex;
+        flex-direction:column;*/
+        font-size: 2.5rem;
+        color:#fff;
+        text-align:center;
+        width: 100%;
+        height:100vh;
+}
+
+.home__title{
+        color:white;
+        position:relative;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 210px;
+}
+
+.home__title::before{
+        content:'';
+        background-color:#ffffff;
+        position: absolute;
+        width: 25%;
+        height: 7.5px;
+        bottom: 130px;
+        right:0;
+        left:0;
+        margin:auto;
+}
+
+.home__link{
+        background:#000;
+        width: 200px;
+        padding: 15px;
+        border-radius: 100px;
+        color:#fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size:1.5rem;
+}
+
+/**Contenu**/
+
+.container{
+    display: flex;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+}
+
+.row:first-of-type {
+  flex-flow: wrap;
+}
+
+.row .picture{
+    flex: 1 1 100%;
+    
+}
+
+.row div{
+    padding: 1em;
+  flex: 1;
+}
+
+h2{
+    text-transform: uppercase;
+    position:relative;
+}
+
+h2::after{
+    content:'';
+    background-color:#121212;
+    position: absolute;
+    width: 25%;
+    height: 7.5px;
+    top:30px;
+    right:0;
+    left:0;
+}
+
+/**pied de page (footer)**/
+
+footer{
+    background-color: #000000;
+}
+
+
+h3{
+    color:white;
+    text-transform: uppercase;
+}
+
+.footer__nav{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.footer__subcategory{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer__link{
+    border-radius: 100px;
+    background-color: #e5e5e5;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 180%;
+    color:#000101;
+
+}
+
+.footer__subcategory--color{
+    color:#414141;
+}
+
+
+footer>nav>div>p{
+    color:white;
+}

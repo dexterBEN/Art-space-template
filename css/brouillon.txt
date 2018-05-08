@@ -1,0 +1,456 @@
+
+/*Élément commun en termes de style:*/
+
+body{
+
+    margin:0;
+    padding:0;
+    font-family: 'Monserrat', sans-serif;
+}
+
+
+.Backtop_white{
+
+	background-color: #FFFFFF;/* sur la nav et les blocs 3,5,7,9, 11, 13,14*/
+}
+
+.Backtop_grey{
+
+	background-color: #f5f5f5;/* sur le 2, 4, 6, 8, 10, 12*/
+}
+
+.Text_part_three_four{
+
+	text-align: center; /*Appliqué sur les blocs 3 et 4*/
+}
+
+.Title_part-3-4{
+
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.Title_left{
+
+	text-align: left;
+	text-transform: uppercase;
+
+}
+
+.Text_part-5-6-7-8-10-12{
+
+	text-align:left;
+}
+
+.hr_block3-4{
+
+	width: 270px; 
+	height:2.5px;
+  	color:black; 
+	background-color:black;
+
+}
+
+.hr_block5-6-7-8{
+
+	position: relative;
+	right:44.5%;
+	width: 270px; 
+	height:2.5px;
+  	color:black; 
+	background-color:black;
+
+}
+
+/*Element du header et nav principale:(A revoir| mettre des class différentes pour les nav| petit problème avec le 'reset css')*/
+
+
+
+.Backtop_header{
+
+	background-image: url(images_css/hero-tour.jpg);/*images décoratives*/
+	background-size: cover;
+	display:flex;
+	flex-direction:column;
+	font-size: 2.5rem;
+	color:#fff;
+	text-align:center;
+	width: 100%;
+	height:100vh;
+
+	/*
+	width:100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-size:40px;
+    */
+}
+
+.nav-main{
+
+		/*
+	    background-repeat: no-repeat;
+	    display:flex;
+        justify-content:flex-end;
+        align-items:center;
+        list-style: none;
+        */
+        margin:auto;
+        background-repeat: no-repeat;
+        display:flex;
+        justify-content:space-between;
+        flex-direction:row;
+}
+
+@media(min-width: 800px){
+
+	.nav-main{
+		max-width: 600px;
+	}
+}
+
+@media(min-width: 1200px){
+
+	.nav-main{
+		max-width: 1000px;
+	}
+}
+
+
+.nav_main>ul>li{
+	list-style: none;
+}
+
+.nav-main__logo-left{
+	
+	/*margin-right: 1200px;*/
+	padding:15px;
+	max-height: 50px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-main__link{
+	color:#000000;/*Couleur des lien de nav(a revoir)*/
+}
+
+/****Élément du header (ou bloc 1)****/
+
+h1{
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.Hrheader{
+	width: 500px; 
+	height:7px;
+	background-color:white;
+	margin-top:250px;
+
+}
+
+.Link_sample{
+	display:inline-block;
+}
+
+.Decorate{
+
+	border-radius: 100px;
+	color:black;
+	text-transform: uppercase;
+	background-color: #fff186;
+	text-decoration: none;
+	
+}
+
+.Link_of_header{
+	color:white;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+
+/**Élément du bloc 2:sponsor(A revoir parceque les images apporte de l'info ou de la déco ? )**/
+
+
+
+
+/**Élément du bloc 3:(A revoir parce que slider)**/
+
+/*
+.Sec3{
+	display: flex;
+}
+*/
+
+
+.Screen{
+
+    margin-left: 480px;
+	/*background-image: url(images_css/large-cinema-display.png);*/
+	background-repeat: no-repeat;
+	height:615px;
+	overflow: hidden;	
+}
+.SizeSlide{
+
+	width: 784px;
+	height: 397px;
+
+}
+
+.Container_slide{
+
+	height:550px;
+}
+
+
+
+/** Élément bloc 4(A revoir)**/
+
+.Backtop_bloc4{
+
+	position:relative;
+	left:27.5%;
+}
+
+
+/**Élément bloc 5:**/
+
+.Backtop_bloc5{
+
+	position:relative;
+	left:27.5%;
+
+}
+
+/*
+.title_block5{
+
+	text-
+	text-align: left;Possibilité de remplacer par (postion: relative)?
+}
+
+.txt_block5{
+
+	text-align: 
+}
+*/
+
+/**Élément bloc 6:**/
+
+.Backtop_bloc6{
+
+	position:relative;
+	left:29.5%;
+}
+
+/**Élément bloc 7: slider(A voir)**/
+
+h3{
+	text-transform: uppercase;
+}
+
+.Art_bloc7{
+	display:flex;
+	justify-content:space-between;
+}
+
+/*
+.Column_bloc7{
+	justify-content:space-around;
+}
+*/
+
+
+/**Élément bloc 8:**/
+.Backtop_bloc8{
+
+	position:relative;
+	left:29.5%;
+}
+
+/**Élément bloc 9: Revoir le placement de l'image**/
+.Backtop_bloc9{
+
+	border-right: 1px;
+	/*width: 300px;
+	height: 300px;*/
+}
+
+.Position_bloc9{
+	display:flex;
+}
+
+.Place_bloc9{
+	flex-direction:column;  
+}
+
+/**Élément bloc 10:**/
+
+.Div_bloc10{
+
+	display:flex;
+}
+
+.Arti_bloc10{
+
+	flex-direction:row;
+}
+
+.Backtop_bloc10{
+
+	border-right: 1px;
+	width: 300px;
+	height: 300px;
+	justify-content:flex-start;
+}
+
+
+/**Élément bloc 11:**/
+
+.Backtop_bloc11{
+	
+	border-right: 1px;
+	width: 300px;
+	height: 300px;
+}
+
+.Position_bloc11{
+	display:flex;
+}
+
+.Column_bloc11{
+	flex-direction:row-reverse;
+}
+
+.Dividing{
+	width:5px;
+    border-left:1px solid gray;
+    height:300px;
+}
+
+
+
+/**Élément bloc 12:**/
+
+.Backtop_bloc12{
+
+	position:relative;
+	left:27.5%;
+	width: 760px;
+	height: 370px;
+}
+
+/**Élement bloc 13 & 14:**/
+
+.Artbloc13{
+	display:flex;	
+}
+
+.Cl11{
+	margin-left: 100px;
+}
+.Picture{
+	border-radius: 60px;
+}
+
+figcaption{
+	background-color: #58cb8e;
+	border-radius: 70px;
+	width: 698px;
+	height: 98px;
+}
+
+.Cl12{
+	margin-left: 100px;
+}
+
+.Artbloc14{
+	display:flex;	
+}
+
+.Cl21{
+	margin-left: 98px;
+}
+
+.Cl22{
+	margin-left: 535px;
+}
+
+.Spanelement{
+	background-color: #58cb8e;
+	color:white;
+	text-transform: uppercase;
+	font-size: 120%;
+	border-radius:10px;
+}   
+
+
+
+
+/*Footer*/
+
+footer{
+	background-color: #000000;
+}
+
+
+h4{
+	color:white;
+	text-transform: uppercase;
+}
+
+/*
+footer>nav>div>ul,h4{
+
+	color:white;
+}
+*/
+
+.Nav_footer{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.Sous_bloc{
+	display:flex;
+	flex-direction:column;
+}
+
+.Link_footer{
+	border-radius: 100px;
+	background-color: #e5e5e5;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 180%;
+	color:#000101;
+
+}
+
+.Subclass{
+	color:#414141;
+}
+
+footer>nav>div>p{
+	color:white;
+}
+/**eviter de mettre des majuscule aux class**/

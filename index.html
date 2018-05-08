@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	
+	<head>
+
+		<meta charset="utf-8">
+		<link href="css/Styles.css" type="text/css" rel="stylesheet" media="all"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserra" rel="stylesheet"/>
+
+		<link rel="stylesheet" href="js/slick-1.8.0/slick/slick.css"/>
+	    <link rel="stylesheet" href="js/slick-1.8.0/slick/slick-theme.css"/>
+	<!--<script  type="text/javascript" src="../JS/mon_plugin/slider_plugin.js"></script>(Élement sans plugin jquery)-->
+		<title>Art-space</title>
+
+	</head>
+
+	<body>
+
+		<!--Menue de navigation(block1)-->
+		<header>
+
+			<nav class="nav-main">
+
+				<a onclick="location.href='index.html'"><img src="html/images_fond/logo.png" class="nav-main__logo-left" alt="logo-art-space"/></a>
+				<ul class="nav-main__menu">
+					<li><a href="" class="nav-main__link">Tour</a></li>
+					<li><a href="" class="nav-main__link">Templates</a></li>
+					<li><a href="" class="nav-main__link">developers</a></li>
+					<li><a href="html/pricing.html" class="nav-main__link">Pricing</a></li>
+					<li><a href="" class="nav-main__link">Login</a></li>
+				</ul>	
+			</nav>
+
+			<section>
+				<div class="backtop_header">
+
+						<h1>everything you need to create an exceptional website</h1>
+						<p class="backtop_header__text">free 14 day trial with 24/7 support</p>
+						<div class="link_sample">
+							<a href="" class="backtop-header__link backtop-header__link--primary">get started</a>
+							<a href="" class="backtop-header__link">watch demo</a>
+						</div>
+			    </div>
+				
+			</section>
+		</header>
+
+		<!--Bloc2: Sponsore(il y avait une div au départ je l'ai transformée en section)-->
+		<section class="section2">
+
+			<p>as featured in</p>
+			<img src="html/images_fond/press-logo-betabeat.png" alt="sponsore:BETABEAT"/>
+			<img src="html/images_fond/press-logo-fastco.png" alt="sponsore:FASTCOMPANY"/>
+			<img src="html/images_fond/press-logo-forbes.png" alt="sponsore:FORBES"/>
+			<img src="html/images_fond/press-logo-pandodaily.png" alt="sponsore:PANDODAILY"/>
+			<img src="html/images_fond/press-logo-techcrunch.png" alt="sponsore:BETABEAT"/>
+			<img src="html/images_fond/press-logo-time.png" alt="sponsore:TIME"/>
+
+		</section>
+
+		<!--Bloc3: slider-->
+		<section class="designs">
+			<h2 class="designs__title">Stunning designs from the start.</h2>
+			<!--<hr class="hr_block3-4"/>-->
+			<p>Art.space starts you with  beautiful templates right out of the box-each handcrafted by our award-winning design team to make your content stand out </p>
+
+			<div class="wrapper">
+				<div class='slide-container container-tour'>
+					<div class='slider'>
+						<div><img src="html/images_fond/slides1/img1.png" alt="sample-templat1"/></div>
+					    <div><img src="html/images_fond/slides1/img2.png" alt="sample-templat2"/></div>
+					    <div><img src="html/images_fond/slides1/img3.png" alt="sample-templat3"/></div>
+					    <div><img src="html/images_fond/slides1/img4.png" alt="sample-templat4"/></div>
+					    <div><img src="html/images_fond/slides1/img5.png" alt="sample-templat5"/></div>
+					    <div><img src="html/images_fond/slides1/img6.png" alt="sample-templat6"/></div>
+
+					</div>
+					<img src="html/images_fond/large-cinema-display.png" alt="slider-laptop-decoration">
+				</div>
+			</div> 
+
+				<!-- Ci-dessous un slider sans plugin JQ(fonctionnel): -->
+				<!--<div class="arrow leftArrow" onclick="prev()"><img src="html/images_fond/templates-gallery-left-arrow.png"/></div>  flèche directionnel-->
+				<!--<div><img id="slider" src="html/images_fond/slides1/img1.png" alt="" width="784"/></div>-->
+				<!--<div class="arrow rightArrow" onclick="next()"><img src="html/images_fond/templates-gallery-right-arrow.png"/></div> flèche directionnel-->
+		</section>
+
+		<!--Blocs 4:-->
+		<section class="pages">
+
+			<h2 class="pages__title"> pages, galleries, and blog.<br> all in one plateform</h2>
+
+			<p>whether you need simple pages, sophisticated gallerie, or professional blog-or any combination of each of those- it all comes standard with your website.
+				<img src="html/images_fond/tour-all-in-one.png" alt="sample of template"/>
+			</p>
+			
+		</section>
+
+		<!--Blocs 5:-->
+		<section class="layout">
+
+			<h2 class="layout__title">introducing layoutengine.<br> A new page builder for art space.</h2>
+			<p>Our revolutionary layoutengine technology give you the freedom to create visually rich pages with any configuration of text, images or blocks by draggings items exactly where you want them. we lay thing out in a perfect grid, so everything is 
+				always aligned.
+
+				<img src="html/images_fond/tour-layoutengine-video-poster.jpg" alt="visual-graphics-of-layout-engine"/>
+			 </p>
+
+		</section>
+
+		<!--Blocs 6:-->
+		<section class="gallery">
+
+			<h2 class="gallery__title"> gallery with cutting-edge creative tools.</h2>
+
+			<p>Our photo galleries come with next-generations features you'll love. enjoy easy uploading by dragging files from your desktop into the browser.edit images any time you want with Aviary. select the focal point of each image, ensuring the best crop possible.
+			<img src="html/images_fond/tour-gallery.jpg" alt="visual-photo-gallery"/>
+			</p>
+
+		</section>
+
+		<!--Blocs 7: slider-->
+		<section  class="blog">
+			<h2 class="blog__title">state-of-the-art blogging.</h2>
+
+			<p>Effortlessly create content with our page builder and gallery system.share easily, map post with native geolocation, and use our bookmarklet to reblog content from the web.</p>
+
+			<!--Element slider(ne pas oublier les icones), appliqué le plugin sur la div-->
+			<div class="wrapper">
+				<div class='slide-container container-tour'>
+					<div class='slider'>
+						<div><img src="html/images_fond/slides2/tour-blog-backend.jpg" alt="blog-sample1"/></div>
+					    <div><img src="html/images_fond/slides2/tour-blog-frontend.jpg" alt="blog-sample2"/></div>
+					    <div><img src="html/images_fond/slides2/tour-blog-frontend-dialog.jpg" alt="blog-sample3"/></div>
+					</div>
+				</div>
+			</div> 
+
+			<aside class="blogging__article">
+				<article>
+					<h3>import seamlessly</h3>
+					<p>Start where you left off by importing all of your content from WordPress, Tumblr Posterous, Blogger,and Squarespace 5.</p>
+					<img src="html/images_fond/icon/icon-wordpress-24-dark.png" alt="icon:social-media:wordpress"/><!--Apporte de l'information-->
+					<img src="html/images_fond/icon/icon-tumblr-24-dark.png" alt="icon-social-media:tumblr"/>
+					<img src="html/images_fond/icon/icon-pinterest-24-dark.png" alt="icon-social-media:pinterest"/>
+					<img src="html/images_fond/icon/icon-blogger-24-dark.png" alt="icon-social-media:"/>
+					<img src="html/images_fond/icon/icon-artspace-24-dark.png" alt="icon-social-media:"/>
+				</article>
+
+				<article>
+					<h3>push content out</h3>
+					<p>Publisize your freshest content by setting your blog to auto-publish to all of your favourite social networks</p>
+					<img src="html/images_fond/icon/icon-facebook-24-dark.png" alt="icon-social-media:facebook"/><!--Apporte de l'information-->
+					<img src="html/images_fond/icon/icon-twitter-24-dark.png" alt="icon-social-media:twitter"/>
+					<img src="html/images_fond/icon/icon-google-24-dark.png" alt="icon-social-media:google"/>
+					<img src="html/images_fond/icon/icon-tumblr-24-dark.png" alt="icon-social-media:tumblr"/>
+				</article>
+
+				<article>
+					<h3>share buttons</h3>
+					<p>Make it easy to share your content across the web by adding the social buttons you know your visitors use.</p>
+					<img src="html/images_fond/icon/icon-facebook-24-dark.png" alt="icon-social-media:facebook"/><!--Apporte de l'information-->
+					<img src="html/images_fond/icon/icon-twitter-24-dark.png" alt="icon-social-media:"/>
+					<img src="html/images_fond/icon/icon-google-24-dark.png" alt="icon-social-media:"/>
+					<img src="html/images_fond/icon/icon-linkedin-24-dark.png" alt="icon-social-media:linkedin"/>
+					<img src="html/images_fond/icon/icon-stumbleupon-24-dark.png" alt="icon-social-media:"/>
+					<img src="html/images_fond/icon/icon-reddit-24-dark.png" alt="icon-social-media:"/>
+					<img src="html/images_fond/icon/icon-pinterest-24-dark.png" alt="icon-social-media:"/>
+				</article>
+
+			</aside>
+		</section>
+
+		<!--Blocs 8:-->
+		<section class="custom">
+			<h2 class="custom__title">the custom look you want</h2>
+			
+			<p>make any template your own with a few clicks in the style editor. Choose a preset color palette or select your own fronts, colors, and layouts to create the custom look you want</p>
+
+			<img src="html/images_fond/tour-style-editor.jpg" alt="exemple-custom"/>
+		</section>
+		
+
+		<!--Blocs 9:-->
+		<section class="mobile">
+
+			<div class="mobile__column">
+				<h2 class="mobile__column--title">mobile site built right in</h2>
+			    <p>Each template includes a unique mobile design, so anyone can see the beauty of your work anytime, anyplace, on any device</p>
+			    <img src="html/images_fond/icon/tour-mobile-logos.png" alt="preview-support"/>
+			</div>
+
+			<div class="mobile__column">
+				<img src="html/images_fond/tour-mobile.png" alt="operating-system"/>
+		    </div>
+		</section>
+		
+
+		<!--Blocs 10:-->
+		<section class="connect-service"> 
+			<div>
+				<!--Réduire la taille des nom des class-->
+				<h2 class="connect-service__title">connect with the service you love</h2>
+				<p>Make your website the center of your line identity and social life on the web with an array of powerful tools</p>
+		    </div>
+
+		    <div class="connect-service__column">
+		    	<div>
+		    		<img src="html/images_fond/tour-social-blob.png" alt="connection-with-social-média"/>
+		    	</div>
+
+		    	<div class="connect-service__article">
+			    	<article>
+						<h3>Import</h3>
+						<p>txt txt txt</p>
+				    </article>
+
+					<article>
+						<h3>sync</h3>
+						<p>txt txt txt</p>
+					</article>
+
+					<article>
+						<h3>publish</h3>
+						<p>txt txt txt</p>
+					</article>
+			    </div>
+		    	
+		    </div>
+
+		</section>
+
+		<!--Blocs 11:-->
+		<section class="commenting">
+			
+			<div class="commenting__column">	
+				<img src="html/images_fond/tour-comments.png" alt="comment-preview"/>
+		    </div>
+
+			<div class="commenting__separator"></div><!--ligne de démarcation-->
+
+		    <div>
+				<h2 class="commenting__title">powerful commenting</h2>
+				<p>Real-time posting and threading makes comment activity<br/>easy to engage with.Our comment moderating and spam<br/>filtering tools have never been more powerful.Your readers can login using Twitter and Facebook, and you<br/>can Integrate Diques.</p>
+			</div>
+		</section>
+
+		<!--Blocs 12:-->
+		<section class="statistics">
+
+			<h2 class="statistics__title">real-time statiscs for audience insight.</h2>
+			
+			<p>Acess your built-in analytics to view the traffic and behavior of visitors in real-time.Learn where they're coming from, and what keywords they're using to find you.
+				<img src="html/images_fond/tour-stats.jpg" alt="statistique"/>
+			</p>
+
+		</section>
+
+		<!--Blocs 13:-->
+		<div class="articles">
+
+			<div class="articles__column">
+				<article>
+					<h2 class="articles__title">search engine optimized</h2>
+					<p class="articles__text">Art.space websites include clean article links, proper tagging,<br/> XML sitemaps, and valid XHTML code.All of which make your<br/> website loved by search engines.</p>
+					
+					<!--Bloc pour la citation du CEO-->
+					<blockquote class="articles__citation">
+						<figure>
+							
+							<figcaption><!--Banderole verte-->
+								<img src="html/images_fond/tour-rob-space.jpg" class="picture" alt="photography-rob"/><!--photo CEO-->
+								<p>Rob Space,CEO</p>
+								<img src="html/images_fond/seo-moz.png" class="seo" alt="logoSeo"/><!--mini logo seomoz-->
+							</figcaption>
+						</figure>
+
+							<q>The team has put together a remarkable platform.<br/>Every aspect of the product-user experience,featurest,<br/>SEO friendliness, design and more-all work together to create one of the few content management systems I'm proud to recommend.
+							</q>
+					</blockquote>
+				</article>
+		    </div>
+			
+			<div class="articles__column">
+				<article>
+					<h2 class="articles__title">choose your contributor</h2>
+
+					<p class="articles__text">Invite contributors to help you manage your website.Set individual permission, from full admin to a trusted commenter, so you are always in control.</p>
+					<img src="html/images_fond/tour-contributors.png" alt="contributor-demo"/>
+				</article>
+			</div>
+		</div>
+
+		<hr>
+
+		<!--Blocs 14:-->
+		<div class="articles">
+			
+			<div class="articles__column">
+				<article>
+					<h2 class="articles__title">cloud hosting from the best</h2>
+
+					<p>With our reliable and scalable cloud infrastructure, there's no<br/>downtime, and nothing to install, patch, or upgrade.</p>
+					<img src="html/images_fond/tour-clouds.png" alt="cloud-demo"/>
+				</article>
+			</div>
+
+			<div class="articles__column">
+				<article>
+					<h2 class="articles__title">custom domain names</h2>
+					<span class="spanelement">free</span><!--petit bulle free-->
+					
+					<p>Art.space makes adding your custom domain simple, and<br/>every annual account receives a free custom domain.</p>
+					<img src="html/images_fond/tour-domain.png" alt="domain-name"/> 
+				</article>
+			</div>
+		</div>
+		
+		<!-- blocs 15: footer ou pied de page-->
+		<footer>
+
+			<nav class="footer__nav">
+				<div>
+					<h4>product</h4>
+					<ul class="footer__subcategory">
+						<li><a href="" class="footer__subcategory--color">Tour</a></li>
+						<li><a href="" class="footer__subcategory--color">Templates</a></li>
+						<li><a href="" class="footer__subcategory--color">Mobile Apps</a></li>
+						<li><a href="" class="footer__subcategory--color">Developers</a></li>
+						<li><a href="" class="footer__subcategory--color">Pricing</a></li>
+						<li><a href="" class="footer__subcategory--color">Sign Up</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h4>company</h4>
+					<ul class="footer__subcategory">
+						<li><a href="" class="footer__subcategory--color">About</a></li>
+						<li><a href="" class="footer__subcategory--color">careers</a></li>
+						<li><a href="" class="footer__subcategory--color">Press&Media</a></li>
+						<li><a href="" class="footer__subcategory--color">Environmental Impact</a></li>
+						<li><a href="" class="footer__subcategory--color">Affiliate Program</a></li>
+						<li><a href="" class="footer__subcategory--color">Terms of Service</a></li>
+						<li><a href="" class="footer__subcategory--color">Privacy Policy</a></li>
+						<li><a href="" class="footer__subcategory--color">Contact Us</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h4>community</h4>
+					<ul class="footer__subcategory">
+						<li><a href="" class="footer__subcategory--color">Blog</a></li>
+						<li><a href="" class="footer__subcategory--color">Help&support</a></li>
+						<li><a href="" class="footer__subcategory--color">Answers</a></li>
+						<li><a href="" class="footer__subcategory--color">Workshop</a></li>
+						<li><a href="" class="footer__subcategory--color">Service Updates</a></li>
+						<li><a href="" class="footer__subcategory--color">Twitter</a></li>
+						<li><a href="" class="footer__subcategory--color">Facebook</a></li>
+						<li><a href="" class="footer__subcategory--color">Google+</a></li>
+						<li><a href="" class="footer__subcategory--color">YouTube</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<a class="footer__link" href="">try it free</a>
+					<p>free 14-day</p>
+					<p>No credit card required</p>
+					<p>24/7 support</p>
+					<img src="html/images_fond/footer-truste.png" alt="other"/>
+				</div>
+
+			</nav>
+
+		</footer>
+
+		<!--Script relatif aux SLIDERS:-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	  	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="js/slick-1.8.0/slick/slick.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+					$(".slider").slick({
+						prevArrow:"<img class='arrowleft control-c prev slick-prev'  src='html/images_fond/templates-gallery-left-arrow.png'>",
+						nextArrow:"<img class='arrowright control-c next slick-next' src='html/images_fond/templates-gallery-right-arrow.png'>",
+						adaptativeHeight: true
+					});
+	    	});
+		</script>
+	
+	</body>
+
+</html>
